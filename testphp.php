@@ -1,1 +1,1 @@
-echo "<?php echo 'Hello World'" > testError.php
+echo "<?php echo 'Hello World' testError.php
