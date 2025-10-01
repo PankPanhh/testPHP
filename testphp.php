@@ -1,3 +1,19 @@
-echo "<?php echo 'Hello World' >>> testError.php" > testError.php
-git add testError.php
-git commit -m "Add PHP syntax error"
+<?php echo 'Hello World'; 
+class Testphp {
+    public $name;
+    public $age;
+
+    function __construct($name, $age) {
+        $this->name = $name;
+        $this->age = $age;
+    }
+
+    function getName() {
+        return $this->name;
+    }
+
+    function getAge() {
+        return $this->age;
+    }
+}
+?>
