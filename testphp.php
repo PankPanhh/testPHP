@@ -16,4 +16,6 @@ class Testphp {
         return $this->age;
     }
 }
+
+echo "This is a test PHP file.";
 ?>
