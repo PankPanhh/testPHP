@@ -18,6 +18,7 @@ class Testphp {
 }
 
 $test = new Testphp("John", 30);
+$test = new Testphp("Panh", 21);
 echo $test->getName();
 echo $test->getAge();
 ?>
