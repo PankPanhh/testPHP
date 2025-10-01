@@ -7,4 +7,9 @@ class ExampleTest extends TestCase
     {
         $this->assertEquals(4, 2 + 2);
     }
+
+    public function testString()
+    {
+        $this->assertStringContainsString('Hello', 'Hello, World!');
+    }
 }
