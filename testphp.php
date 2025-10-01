@@ -1,24 +1,10 @@
-<?php echo 'Hello World'; 
-class Testphp {
-    public $name;
-    public $age;
+<?php
+use PHPUnit\Framework\TestCase;
 
-    function __construct($name, $age) {
-        $this->name = $name;
-        $this->age = $age;
-    }
-
-    function getName() {
-        return $this->name;
-    }
-
-    function getAge() {
-        return $this->age;
+class ExampleTest extends TestCase
+{
+    public function testSum()
+    {
+        $this->assertEquals(4, 2 + 2);
     }
 }
-
-$test = new Testphp("John", 30);
-$test = new Testphp("Panh", 21);
-echo $test->getName();
-echo $test->getAge();
-?>
