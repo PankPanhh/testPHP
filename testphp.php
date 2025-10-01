@@ -17,5 +17,7 @@ class Testphp {
     }
 }
 
-echo "This is a test PHP file.";
+$test = new Testphp("John", 30);
+echo $test->getName();
+echo $test->getAge();
 ?>
